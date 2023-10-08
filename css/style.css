@@ -1,6 +1,5 @@
 body {
     background-color: black;
-    padding: 1rem 3rem 2rem 4rem;
     font-family: 'Exo 2', sans-serif;
 }
 
@@ -15,6 +14,8 @@ header {
     position: sticky;
     top: 20px;
     backdrop-filter: blur(4px);
+    margin-bottom: 3rem;
+    padding: 0 3rem;
 }
 
 nav .menu {
@@ -64,6 +65,7 @@ footer {
     align-items: center;
     flex-direction: column;
     gap: 0.5rem;
+    padding-bottom: 2rem;
 }
 
 footer p {

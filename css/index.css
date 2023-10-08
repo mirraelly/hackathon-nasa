@@ -1,3 +1,45 @@
-main {
-    margin: 5rem;
+.home-image img {
+    height: 30rem;
+    width: 100%;
+}
+
+.container-home {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.534);
+    border-radius: 10px;
+    color: #FEFEFE;
+    height: 40rem;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 5rem;
+}
+
+.home-title {
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 2rem;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.text-home{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-home p {
+    line-height: 22px;
+    text-align: justify;
+    text-indent: 40px;
+    margin-bottom: 20px;
+}
+
+.ver-mais {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.ver-mais:hover {
+    font-weight: bold;
 }

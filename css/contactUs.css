@@ -1,0 +1,47 @@
+.contacts-container {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.form-item p {
+    text-align: left;
+}
+
+.form-container .form-box {
+    margin: 0 20%;
+}
+
+.form-box .form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.4rem;
+}
+
+.form-item input,
+.form-msg textarea {
+    border-radius: 10px;
+}
+
+.form-item input {
+  height: 28px;
+}
+
+.msg-button {
+    margin: 2% 0 12% 0;
+}
+
+.msg-button button {
+    height: 2rem;
+    width: 10rem;
+    border-radius: 10px;
+    color: #FEFEFE;
+    background-color: blueviolet;
+}
+
+.msg-button button:hover {
+    font-weight: bold;
+    font-size: 18px;
+    height: 2.5rem;
+    width: 11rem;
+}

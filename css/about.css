@@ -1,0 +1,38 @@
+.container-about {
+    padding: 5rem;
+
+}
+
+.box-about {
+    display: flex;
+    gap: 2rem;
+}
+
+.team-image {
+    width: 35rem;
+    border-radius: 20px;
+}
+
+.container-about .tex1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    color: #FEFEFE;
+}
+
+.container-about .about-title1 {
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 2rem;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.container-about p {
+    line-height: 22px;
+    text-align: justify;
+    text-indent: 40px;
+    margin-bottom: 20px;
+    width: 100%;
+}

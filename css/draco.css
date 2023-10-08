@@ -1,0 +1,43 @@
+body {
+    color: #FEFEFE;
+}
+
+.draco-container {
+    padding: 5rem;
+}
+
+.draco-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.about-title1 {
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 2rem;
+    color: blueviolet;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.text-draco-2 {
+    padding: 2rem;
+}
+
+.team-image {
+    border-radius: 20px;
+}
+
+.draco-image-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.legenda-fotos {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 2rem;
+}
