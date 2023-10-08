@@ -56,7 +56,6 @@ The **Draco Team** is a tenacious and courageous team, ready to face challenges 
 
 * Trello
 * Canva
-* ChatGPT
 
 
 ## Referencs
