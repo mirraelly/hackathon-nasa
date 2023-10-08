@@ -1,6 +1,6 @@
 # Nasa International Space Apps Challenge 2023
 
-This site was created during the NASA International Space Apps Challenge 2023 event, whose theme was “Exploring Open Science Together” in collaboration with NASA Transform to Open Science (TOPS). Here, we have included various information and curiosities that our study team found relevant for the exploration of the exoplanet Draco C (a fictional planet found outside our Solar System, in the orbit of other stars, and inspired by exoplanets that have the possibility of harboring life).
+This site was created during the **NASA International Space Apps Challenge 2023** event, whose theme was *“Exploring Open Science Together”* in collaboration with NASA Transform to Open Science (TOPS). Here, we have included various information and curiosities that our study team found relevant for the exploration of the exoplanet **Draco C** (a fictional planet found outside our Solar System, in the orbit of other stars, and inspired by exoplanets that have the possibility of harboring life).
 
 ## Technologies used
 
@@ -15,7 +15,9 @@ This site was created during the NASA International Space Apps Challenge 2023 ev
 
 The Space Apps Challenge was founded in 2012 and has become the world's largest annual global hackathon, with projects recognized as Global Winners and the practice of collaboration, creativity and critical thinking, where teams demonstrate interest in the science and exploration of Earth and the space, helping to raise global awareness of NASA data and encouraging growth and diversity in the next generation of scientists and other professionals.
 
-In 2023, the theme of the event (held on octuber 7th to 8th), was “Exploring Open Science Together” in collaboration with NASA Transform to Open Science (TOPS).
+In 2023, the theme of the event (held on octuber 7th to 8th), was ***“Exploring Open Science Together”*** in collaboration with NASA Transform to Open Science (TOPS).
+
+Find out [more about it](https://www.youtube.com/watch?v=kWapt0DPwSg).
 
 ## About The Challenge 
 
@@ -23,7 +25,6 @@ Are we alone in the universe? To address this question, NASA’s next flagship s
 
 ## Outline 
 
-* Outline
 * High-Level Summary
 * Project Demo
 * Final Project
@@ -32,16 +33,15 @@ Are we alone in the universe? To address this question, NASA’s next flagship s
 * Space Agency Data
 * References
 
-
 ## The Draco Team
 
-The Draco Team is a tenacious and courageous team, ready to face challenges with determination. Just as the Draco constellation represents a dragon in mythology, this team symbolizes the will to conquer obstacles and achieve goals, even in the face of difficulties. A united and resilient team, ready to overcome any adversity it encounters on its missions.
+The **Draco Team** is a tenacious and courageous team, ready to face challenges with determination. Just as the Draco constellation represents a dragon in mythology, this team symbolizes the will to conquer obstacles and achieve goals, even in the face of difficulties. A united and resilient team, ready to overcome any adversity it encounters on its missions.
 
 ### Team Membres
 
 * @luanarosa 
 * @martamelo
-* @mirraely
+* @mirraelly
 * @nathalydelai
 * @oceanmoon9827
 * @thay_ju
