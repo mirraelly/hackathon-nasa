@@ -10,11 +10,14 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/draco.css">
+    <link rel="stylesheet" href="./css/gallery.css">
     <link rel="stylesheet" href="./css/contactUs.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+
+    <script src="./js/contactus.js" defer></script>
 
     <title>Draco Team</title>
 </head>
@@ -32,6 +35,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#draco">Draco C</a></li>
+                <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#contactUs">Contact us</a></li>
             </ul>
         </nav>
@@ -129,14 +133,12 @@
                         elementum quis velit in, rhoncus sagittis odio. Donec bibendum justo tellus, ut euismod
                         risus viverra sed.</p>
 
-
-
                 </div>
             </article>
             <article class="draco-image-1">
                 <figure class="box-draco">
                     <img src="./imagens/home-image.jpg" alt="imagens do exoplaneta Draco A-01"
-                        class="exoplaneta1 team-image">
+                        class="exoplaneta1-image">
                     <figcaption class="tex2">
                         <div>
                             <p class="legenda-fotos">Lorem ipsum dolo</p>
@@ -145,7 +147,7 @@
                 </figure>
                 <figure class="box-draco">
                     <img src="./imagens/home-image.jpg" alt="imagens do exoplaneta Draco A-01"
-                        class="exoplaneta1 team-image">
+                        class="exoplaneta1-image">
                     <figcaption class="tex2">
                         <div>
                             <p class="legenda-fotos">Lorem ipsum dolo</p>
@@ -154,47 +156,54 @@
                 </figure>
             </article>
         </section>
-        <section id="contactUs" class="contacts-container">
 
-            <article>
-                <h1 class="contatos about-title1">Contact Us</h1>
-                <div class="text-home text-draco-2">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id dui dui. Suspendisse
-                        mollis est enim, sed posuere turpis blandit eget. Donec varius tincidunt tempor. Nunc ut
-                        sodales leo. Sed eget pretium lacus. Curabitur lobortis tincidunt dolor, a eleifend urna
-                        fringilla semper. Phasellus mattis cursus neque eget fermentum. Nullam ultrices lacinia
-                        venenatis. Sed rutrum rhoncus cursus. Vivamus sit amet ante ut turpis suscipit pretium.
-                        Vivamus porta iaculis eros, id fermentum diam elementum sed. Morbi rhoncus nisi arcu, nec
-                        gravida risus volutpat ac. Nullam sed vulputate arcu, a lobortis magna. Nulla justo lorem,
-                        elementum quis velit in, rhoncus sagittis odio. Donec bibendum justo tellus, ut euismod
-                        risus viverra sed.</p>
-                </div>
+        <section id="gallery" class="gallery-container">
+            <h1 class="gallery-title">Gallery</h1>
+            <article class="text-home text-draco-2">
+                <p>Have you ever thought about discovering a world even more fascinating than our solar system? No? So,
+                    in this gallery you have access to images and videos of an exoplanet called Draco C, where you can
+                    carry out space exploration and get a glimpse of this impressive distant world. Come and discover the mysteries of outer space and the fascinating creatures and elements that you
+                    can find in this beautiful place! Fasten your seatbelts and let this journey begin! 🚀 </p>
+
             </article>
+
+        </section>
+
+        <section id="contactUs" class="contacts-container">
             <article class="form-container">
-                <form action="#" class="form-box">
-                    <div class="form-item">
-                        <p class="text-form">Name:</p>
-                        <input type="text-input" type="text" name="name" id="name" minlength="4" maxlength="50"
-                            placeholder="Type your name" required>
+                <h1 class="contatos about-title1">Contact Us</h1>
+                <form action="#" class="form-box" id="contactForm">
+                    <div>
+                        <div class="form-item">
+                            <p class="text-form">Name:</p>
+                            <input type="text-input" type="text" name="name" id="name" minlength="3" maxlength="50"
+                                placeholder="Type your name" required>
+                        </div>
+                        <div class="form-item">
+                            <p class="text-form">Email: </p>
+                            <input type="text-input" type="email" name="email" id="email" minlength="5" maxlength="50"
+                                placeholder="Enter email" autocomplete="email" required>
+                        </div>
+                        <div class="form-item">
+                            <p class="text-form"> Subject:</p>
+                            <input type="text-input" type="text" name="subject" id="subject" minlength="3"
+                                maxlength="20" placeholder="Enter the reason for contact" required>
+                        </div>
+                        <div class="form-item form-msg">
+                            <p class="text-form">Message:</p>
+                            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Type your message"
+                                required></textarea>
+                        </div>
+                        <div class="msg-button">
+                            <button id="submit" type="submit">Submit</button>
+                        </div>
                     </div>
-                    <div class="form-item">
-                        <p class="text-form">Email: </p>
-                        <input type="text-input" type="email" name="email" id="email" minlength="15" maxlength="50"
-                            placeholder="Enter email" autocomplete="email" required>
-                    </div>
-                    <div class="form-item">
-                        <p class="text-form"> Subject:</p>
-                        <input type="text-input" type="text" name="subject" id="subject" minlength="3" maxlength="20"
-                            placeholder="Enter the reason for contact" required>
-                    </div>
-                    <div class="form-item form-msg">
-                        <p class="text-form">Message:</p>
-                        <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Type your message"
-                            required></textarea>
-                    </div>
-                    <div class="msg-button">
-                        <button id="submit" type="submit">Submit</button>
-                    </div>
+                    <article class="form-description1">
+                        <p class="description-text2">Hello! It'll be a pleasure to chat to you! Feel free to share your
+                            questions and
+                            comments.Just fill out the form aside and we will contact you shortly.</p>
+                        <video src="./imagens/rocket-video.mp4" autoplay="false" loop="true"></video>
+                    </article>
                 </form>
 
             </article>

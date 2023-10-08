@@ -3,12 +3,17 @@
     padding-top: 5rem;
 }
 
-.form-item p {
-    text-align: left;
+#contactUs .form-container .contatos {
+    margin-bottom: 3rem;
 }
 
-.form-container .form-box {
-    margin: 0 20%;
+.form-box {
+    display: flex;
+    gap: 2rem;
+}
+
+.form-item p {
+    text-align: left;
 }
 
 .form-box .form-item {
@@ -16,6 +21,28 @@
     flex-direction: column;
     gap: 0.5rem;
     padding: 0.4rem;
+}
+
+.form-box > * {
+    flex: 1;
+}
+
+video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.form-description1 {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.description-text2 {
+    text-align: justify;
+    text-indent: 2rem;
+    line-height: 25px;
 }
 
 .form-item input,

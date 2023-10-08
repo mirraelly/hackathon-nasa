@@ -1,11 +1,11 @@
 .container-about {
-    padding: 5rem;
+    padding: 5rem 0;
 
 }
 
 .box-about {
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .team-image {
@@ -30,7 +30,7 @@
 }
 
 .container-about p {
-    line-height: 22px;
+    line-height: 25px;
     text-align: justify;
     text-indent: 40px;
     margin-bottom: 20px;

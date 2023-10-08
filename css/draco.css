@@ -3,13 +3,14 @@ body {
 }
 
 .draco-container {
-    padding: 5rem;
+    padding: 5rem 0;
 }
 
 .draco-box {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 3rem;
 }
 
 
@@ -22,12 +23,9 @@ body {
     margin-bottom: 2rem;
 }
 
-.text-draco-2 {
-    padding: 2rem;
-}
-
-.team-image {
+.exoplaneta1-image {
     border-radius: 20px;
+    width: 100%;
 }
 
 .draco-image-1 {

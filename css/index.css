@@ -1,3 +1,7 @@
+main section#home {
+    margin: 0;
+}
+
 .home-image img {
     height: 30rem;
     width: 100%;
@@ -12,7 +16,8 @@
     height: 40rem;
     align-items: center;
     gap: 1rem;
-    padding: 0 5rem;
+    /* padding: 0 5rem; */
+    margin: 0 10%;
 }
 
 .home-title {
@@ -29,7 +34,7 @@
 }
 
 .text-home p {
-    line-height: 22px;
+    line-height: 25px;
     text-align: justify;
     text-indent: 40px;
     margin-bottom: 20px;
