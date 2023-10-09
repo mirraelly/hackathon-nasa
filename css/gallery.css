@@ -27,7 +27,8 @@
 }
 
 .gallery-container article figure {
-flex: 1;
+    flex: 1;
+    margin-bottom: 2rem;
 }
 
 .gallery-container article figure img {
