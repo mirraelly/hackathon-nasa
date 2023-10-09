@@ -20,3 +20,17 @@
     margin-bottom: 20px;
     width: 100%;
 }
+
+.gallery-container article {
+    display: flex;
+    gap: 2rem;
+}
+
+.gallery-container article figure {
+flex: 1;
+}
+
+.gallery-container article figure img {
+    width: 100%;
+    border-radius: 20px;
+}
