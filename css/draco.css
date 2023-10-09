@@ -94,3 +94,31 @@ article figcaption {
 .wall p {
     margin-top: 3rem;
 }
+
+.table table {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.table table td,
+.table table th {
+    padding: 0.7rem;
+}
+
+.table table thead tr {
+    background-color: #FEFEFE;
+    color: purple;
+
+}
+
+.table table th {
+    font-weight: bold;
+}
+
+.table table tbody tr:nth-child(even) {
+    background-color: rgb(179, 122, 179);
+}
