@@ -39,3 +39,35 @@ body {
     text-align: center;
     margin-top: 2rem;
 }
+
+.wall {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 4rem;
+    text-align: justify;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.wall > * {
+    display: flex;
+    flex: 1;
+    gap: 3rem;
+    align-items: center;
+}
+.wall > *>* {
+    flex: 1;
+}
+
+.wall img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.wall figcaption {
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 5px;
+}
